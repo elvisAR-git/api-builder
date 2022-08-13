@@ -1,0 +1,309 @@
+[
+  {
+    "name": "app",
+    "type": "folder",
+    "children": [
+      {
+        "name": "api",
+        "type": "folder",
+        "children": [
+          {
+            "name": "middleware",
+            "type": "folder",
+            "children": [
+              {
+                "name": "auth",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "auth.middleware.js",
+                    "type": "file"
+                  },
+                  {
+                    "name": "index.js",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "logger",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "logger.middleware.js",
+                    "type": "file"
+                  },
+                  {
+                    "name": "index.js",
+                    "type": "file"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "v1",
+            "type": "folder",
+            "children": [
+              {
+                "name": "auth",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "auth.js",
+                    "type": "file"
+                  },
+                  {
+                    "name": "auth.test.js",
+                    "type": "file"
+                  },
+                  {
+                    "name": "index.js",
+                    "type": "file"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "common",
+        "type": "folder",
+        "children": []
+      },
+      {
+        "name": "config",
+        "type": "folder",
+        "children": []
+      },
+      {
+        "name": "cron",
+        "type": "folder",
+        "children": []
+      },
+      {
+        "name": "models",
+        "type": "folder",
+        "children": []
+      },
+      {
+        "name": "modules",
+        "type": "folder",
+        "children": [
+          [
+            {
+              "name": "user",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "userInformation",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "userInformation.interface.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "create.userInformation.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "update.userInformation.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "delete.userInformation.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "get.userInformation.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "shared.userInformation.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "company",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "company.interface.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "create.company.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "update.company.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "delete.company.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "get.company.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "shared.company.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "name": "module.json",
+                  "type": "file"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "name": "security",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "role",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "role.interface.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "create.role.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "update.role.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "delete.role.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "get.role.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "shared.role.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "permission",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "permission.interface.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "create.permission.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "update.permission.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "delete.permission.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "get.permission.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "shared.permission.js",
+                      "type": "file"
+                    },
+                    {
+                      "name": "index.js",
+                      "type": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "index.js",
+                  "type": "file"
+                },
+                {
+                  "name": "module.json",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "name": "services",
+        "type": "folder",
+        "children": [
+          {
+            "name": "external",
+            "type": "folder",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "utils",
+        "type": "folder",
+        "children": [
+          {
+            "name": "db.js",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "app.js",
+        "type": "file"
+      },
+      {
+        "name": "routes.js",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "name": "dist",
+    "type": "folder",
+    "children": []
+  },
+  {
+    "name": "public",
+    "type": "folder",
+    "children": []
+  },
+  {
+    "name": "config.json",
+    "type": "file"
+  }
+]

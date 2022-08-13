@@ -1,0 +1,13 @@
+{
+  "module": "user",
+  "version": "1.0.0",
+  "description": "user module",
+  "author": "",
+  "email": "",
+  "license": "",
+  "models": [
+    "userInformation",
+    "company"
+  ],
+  "allowed_roles": []
+}

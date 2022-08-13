@@ -1,0 +1,13 @@
+{
+  "module": "security",
+  "version": "1.0.0",
+  "description": "security module",
+  "author": "",
+  "email": "",
+  "license": "",
+  "models": [
+    "role",
+    "permission"
+  ],
+  "allowed_roles": []
+}
